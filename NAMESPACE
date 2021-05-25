@@ -1,0 +1,14 @@
+useDynLib(rfuse)
+importFrom(Rcpp, evalCpp)
+export(createModel, deleteModel, freeCspace,
+       startTiming, endTiming, getEdgelist2,
+       getEdgelist, tcpp, readPmatrix,
+       readSmatrix2, readSmatrix, normalisePc,
+       test, findASDedges, findCONTROLedges,
+       fuseASDsets, fuseCONTROLsets )
+       
+       
+       
+       
+       
+       

@@ -1,0 +1,7 @@
+
+# set by hand
+OPENMP_FLAG = -L/usr/lib/x86_64-linux-gnu -lgomp
+
+# combine with standard arguments for R
+PKG_CPPFLAGS = -I/usr/local/lib/R/site-library/bigstatsr/include -DLEVEL1_DCACHE_LINESIZE=`getconf LEVEL1_DCACHE_LINESIZE` -O3 -march=native -mavx -fopenmp -ffast-math -DARMA_DONT_USE_WRAPPER
+PKG_LIBS = $(OPENMP_FLAG) -fopenmp -lopenblas
