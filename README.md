@@ -1,5 +1,5 @@
 # rfuse
-C/C++ code, wrapped in R, to fuse large similarity datasets. This code is specifically designed to fuse the large SPARK patient datasets (not provided) with the aid of a sun grid engine.
+C/C++ code, wrapped in R, to fuse large similarity datasets. This code is specifically designed to fuse the large SPARK ASD patient datasets (not provided) with the aid of a sun grid engine.
 
 Reference:
 [1] B Wang, A Mezlini, F Demir, M Fiume, T Zu, M Brudno, B Haibe-Kains, A Goldenberg (2014) Similarity Network Fusion: a fast and effective method to aggregate multiple data types on a genome wide scale. Nature Methods. Online. Jan 26, 2014 
